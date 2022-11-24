@@ -1,0 +1,79 @@
+h1{
+  font-size: 2.5rem;
+}
+
+#banner{
+  padding-top:60px;
+  padding-bottom:60px;
+  height: auto;
+}
+
+.nav {
+  border-bottom: 0;
+  }
+.nav ul {
+  display: none;
+  height: auto;
+}
+.nav li {
+  width: 100%;
+}
+
+.nav li a {
+  border-right: 0;
+}
+
+.nav a#pull {
+  border-top: 2px solid #fff;
+  display: block;
+  background: #b63d32;
+  width: auto;
+  position: relative;
+  line-height: 30px;
+}
+.nav a#pull:after {
+  line-height: 30px;
+  vertical-align: middle;
+  content:"\f0c9";
+  font-size:1.5rem;
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  margin-top: 5px;
+}
+
+form ul li input[type=text], form ul li textarea{
+  width:100%;
+  box-sizing: border-box;
+}
+
+.map{
+  height:250px;
+}
+
+.carbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.carbox.sold:before{
+  font-size: 100px;
+}
+
+.carbox img{
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.carbox .contain{
+}
+
+
+.galleryWrapper{
+  width:auto;
+  max-width:320px;
+  margin: 0 auto;
+}

@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Bree Serif';
+	font-size: 18px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #efefef;
+}
+
+#banner{
+	/*background:url('/images/polish1000.2.jpg') no-repeat top left;*/
+	background:url('/assets/images/closesilveredit.jpg') no-repeat top left;
+	height: 280px;
+	padding-top: 80px;
+}
+
+h1, h2{
+	color: #fff;
+	font-family: 'Bree Serif';
+	text-align: center;
+	font-size: 4.5rem;
+	text-shadow: 0px 2px 2px #000;
+	letter-spacing: 3px;
+	word-spacing: 20px;
+}
+
+h1 a{
+	color: inherit;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	word-spacing: 1rem;
+}
+
+h3{
+	color: #b63d32;
+	font-size:3rem;
+	letter-spacing: 2px;
+	text-align: center;
+	display: block;
+	margin-top:70px;
+	margin-bottom: 10px;
+	text-shadow: 0 2px 2px #555;
+}
+
+h4{
+	font-size: 2rem;
+	text-align: center;
+	margin-top:40px;
+	margin-bottom:10px;
+}
+
+p{
+	margin: 20px 0;
+	word-break:break-word;
+}
+
+ul{
+	margin: 10px 0;
+}
+
+a{
+	color:blue;
+}
+
+
+#content{
+	margin:0 50px;
+}
+
+#footer{
+	clear:both;
+	background: #962B21;
+	margin-top: 70px;
+	padding:40px 0;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.tar{text-align: left;}
+.tal{text-align: right;}
+.tac{text-align: center;}
+.red{ color: #b63d32}
+.white{color: #fff;}
+.black{color: #000;}
+.grey{color: #aaa;}
+
+.rem1p2{font-size: 1.2rem}
+.rem1p4{font-size: 1.4rem}
+.rem1p6{font-size: 1.6rem}
+.rem1p8{font-size: 1.8rem}
+.rem2p0{font-size: 2.0rem}
+
+p{
+	line-height: 1.7rem;
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.openpara{
+	font-weight: bold;
+}
+
+/*clever nav*/
+.nav {
+	background: #b63d32;
+	text-align: center;
+	width: 100%;
+	font-size: 11pt;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 2px solid #283744;
+
+	width: auto;
+	color: #fff;
+	text-decoration: none;
+	display:block;
+	box-shadow: 0 2px 2px #555;
+
+}
+.nav ul {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+	margin: 0 20px;
+}
+.nav a {
+	padding:15px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.nav li:last-child a {
+	border-right: 0;
+}
+
+.nav a:hover, nav a:active {
+	background: #962B21;
+}
+
+.nav a#pull {
+	display: none;
+}     
+
+.nav li a {
+    border-right: 0px solid #576979;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+.nav li:last-child a {
+    border-right: 0;
+}  
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.jobimg{
+	text-align: center;
+}
+
+.jobimg img{
+	height: 180px;
+	display: inline-block;
+	margin:10px;
+}
+
+.jobimg.two img{
+	height: auto;
+	width: 35%;
+}
+
+.jobimg.three img{
+	height: auto;
+	width: 30%;
+}
+
+form ul li{
+	list-style: none;
+	margin-top: 20px;
+}
+
+form ul li .title{
+	color: #777;
+	display: block;
+	font-size: 1rem;
+	margin-bottom:5px;
+	font-style: italic;
+}
+
+form ul li input[type=radio], form ul li label{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+form ul li label{
+	margin-right:5px;
+	font-size: 1.4rem;
+}
+
+form ul li input[type=text], form ul li textarea{
+	font-size: 1.3rem;
+	font-family: 'Bree Serif';
+	font-weight: normal;
+	padding:8px 10px;
+	width:400px;
+}
+
+form ul li textarea{
+	height:200px;
+}
+
+form ul li input[type=submit]{
+	padding:8px 25px;
+	cursor: pointer;
+	border-radius: 5px;
+	border:1px solid #b63d32;
+	background: #b63d32;
+	color:#fff;
+	font-size: 1.1rem;
+}
+
+.hl{
+	color: #b63d32;
+	font-weight: bold;
+}
+
+.map{
+	width:100%;
+	height:450px;
+	display:block;
+	border:0;
+}
+
+.carlist{
+
+}
+
+.carbox{
+	background: #ddd;
+	padding: 10px;
+	clear:both;
+	margin-bottom: 10px;
+	display: flex;
+	border-radius: 2px;
+	position:relative;
+}
+
+.carbox div.gallery{
+	flex: 0 0 250px;
+	margin-right: 10px;
+	border-radius: 2px;
+	align-self: flex-start;
+}
+.carbox .contain{
+	width: auto;
+	flex-basis: auto;
+}
+
+.carbox .model{
+	font-size: 1.2em; 
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.carbox .price{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	
+}
+
+.carbox .milage{
+	font-size: 1.0em;
+	margin-bottom: 5px;
+}
+
+.carbox .desc{
+	font-size: 0.8em;
+	margin-bottom: 5px;
+	white-space: pre-wrap;
+}
+
+.carbox.sold:before{
+  content: 'SOLD';
+  font-size: 200px;
+  color: rgba(150,0,0,0.3);
+  font-weight: bold;
+  position: absolute;
+  background: rgba(255,255,255,0.5);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  margin-left:-5px;
+  margin-top:-5px;
+  z-index: 100;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+
+/*gallery*/
+.galleryWrapper ul {
+    list-style: none;
+}
+
+.galleryWrapper{
+	width:320px;
+	margin-right: 20px;
+}
+
+.galleryWrapper li img{
+	width:320px;
+}

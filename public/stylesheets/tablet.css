@@ -1,0 +1,49 @@
+body{
+  width: auto;
+}
+#banner{
+  background-size:  800px auto;
+  height:180px;
+}
+
+h1{
+  font-size: 3.0rem
+}
+
+h2{
+  font-size: 1.0rem;
+  letter-spacing: .15rem;
+  word-spacing: .5rem;
+}
+
+#content{
+  margin:0 10px;
+}
+.nav { 
+  height: auto;
+}
+.nav ul {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.nav li {
+  width: 50%;
+  float: left;
+  position: relative;
+  margin:0;
+}
+.nav li a {
+  border-bottom: 1px solid #962B21;
+  border-right: 1px solid #962B21;
+}
+.nav a {
+  padding: 15px 0;
+  text-align: left;
+  width: 100%;
+  text-indent: 25px;
+}
+
+.map{
+  height:350px;
+}
